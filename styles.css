@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Rowdies', cursive;
+}
+
+h1,p{
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.lista{
+    background-image: radial-gradient( circle 944px at 6.9% 46.3%,  rgba(254,192,193,1) 0%, rgba(254,192,193,1) 0%, rgba(0,67,105,1) 100.2% );
+    font-size: 2rem;
+}
+
+ul{
+    list-style-type: square;
+    margin: 30px 0;
+    list-style-type: none;
+    list-style-image: url(img/hand-24.png);
+    list-style-position: inside;
+}
+
+ol{
+    list-style-type: disc;
+}
+
+
+figure{
+    width: 300px;
+    height: 400px;
+    background-image: radial-gradient( circle 944px at 6.9% 46.3%,  rgba(254,192,193,1) 0%, rgba(254,192,193,1) 0%, rgba(0,67,105,1) 100.2% );
+    margin: 30px auto;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, .8);
+}
+.img{
+
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+
+}
+
+
+
+
